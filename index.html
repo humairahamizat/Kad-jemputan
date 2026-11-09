@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Walimatul Urus Hisyam & Auni</title>
 <style>
-  html,body{margin:0;height:100%;overflow:hidden;background:#12040a}
+  html,body{margin:0;height:100%;overflow:hidden;background:#d7d9de}
 
-  #cover{position:fixed;inset:0;cursor:pointer;-webkit-tap-highlight-color:transparent;background:#12040a}
+  #cover{position:fixed;inset:0;cursor:pointer;-webkit-tap-highlight-color:transparent;background:#d7d9de}
 
   /* Lapisan belakang: gambar yang sama dikaburkan, supaya tiada jalur kosong di tepi/atas/bawah */
-  #cover .fill{position:absolute;inset:-40px;background:url("cover.jpg") center/cover no-repeat;filter:blur(28px) brightness(.8)}
+  #cover .fill{position:absolute;inset:-40px;background:url("cover.jpg") center/cover no-repeat;filter:blur(28px) brightness(.8);display:none}
 
   /* Gambar utama: penuh skrin, tiada jalur kosong di tepi.
      Bahagian penting (tajuk + sampul) dikekalkan dalam bingkai. */
@@ -34,7 +34,7 @@
 <div id="cover">
   <div class="fill"></div>
   <picture>
-    <source srcset="cover.webp" type="image/webp">
+    <source srcset="covers.webp" type="image/webp">
     <img src="cover.jpg" alt="Walimatul Urus Hisyam &amp; Auni" draggable="false">
   </picture>
 </div>
